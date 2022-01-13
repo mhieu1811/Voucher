@@ -1,0 +1,92 @@
+.footer-bg{
+  color:white;
+  background-color: black;
+  position: relative;
+}
+.footer-bg .main{
+  margin:auto;
+}
+.footer-bg .main tr td{
+  text-align:left;
+  vertical-align: text-top;
+}
+.footer-bg .main .partner-button{
+    padding: 10px 20px 10px 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 10px;
+  font-size: medium;
+}
+.footer-bg .main .partner-button:hover{
+  color: #3380E6;
+  border-color: #3380E6;
+}
+.footer-bg .main .title{
+  font-size: large;
+  font-weight: bold;
+}
+
+.footer-bg .sub {
+ 
+  
+}
+
+.footer-bg .sub .address{
+  color:gainsboro;
+  font-size: small;
+}
+
+.mr10{
+  margin-right: 10px;
+}
+.footer-bg .main .payment img{
+    margin: 2px 2px 2px 2px;
+    padding: 15px 10px 15px 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+.footer-bg .main ul{
+    margin: 0px;
+    padding: 0px;
+  list-style-type: none;
+  
+}
+.footer-bg .main ul li{
+  margin-top: 5px;
+  
+}
+.footer-bg .main ul li a:hover{
+  color: #3380E6;
+}
+.footer-bg .main ul li a{
+text-decoration: none;
+  color: white;
+}
+.footer-bg .main .block{
+    padding: 20px 20px 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-bg .main .contact i{
+  margin-right: 10px;
+}
+.footer-bg .main .contact a{
+  text-decoration: none;
+  
+}
+.footer-bg .main .contact .twitter:hover{
+  cursor: pointer;
+    color: #3380E6;
+}
+.footer-bg .main .contact .facebook:hover{
+  cursor: pointer;
+  color: #73aefc;
+}
+.footer-bg .main .contact .instagram:hover{
+cursor: pointer;
+  color: #f765fc;
+}
+.footer-bg .main .contact .youtube:hover{
+cursor: pointer;
+  color: #f53232;
+}

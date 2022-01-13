@@ -1,0 +1,25 @@
+.mrl10{
+    margin-right: 10px;
+}
+.mrl5{
+    margin-right: 5px;
+}
+.mrl20{
+    margin-right: 20px;
+}
+.bg-main-nav{
+    background-color: #ffffff;
+}
+.sea-text{
+    color:#3380E6;
+}
+.fire-text{
+    color:tomato
+}
+.gray-text{
+    color:rgb(165, 165, 165);
+}
+.gray-text:hover{
+    text-decoration: none;
+    color:#3380E6;
+}

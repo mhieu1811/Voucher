@@ -1,0 +1,53 @@
+.input-group{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.input-group .input--search{
+    position: relative;
+    margin-left: 20px;
+    width: 240px;
+    height: 38px;
+    border: 1px #ccc solid;
+    border-radius: 25px;
+    outline:none;
+    padding:0 20px;
+    transition:all .2s;
+} 
+.input-group .input--search:hover{
+    border-color: blue;
+}
+.btn--search{
+    position: absolute;
+    left: 265px;
+    top:0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 38px;
+}
+.btn--arrange{
+    position: absolute;
+    left: 380px;
+    top:0;
+}
+.btn--add{
+    position: absolute;
+    left: 320px;
+    top:0;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 38px;
+    
+}
+.table td, .table th{
+    vertical-align: center !important;
+}
+.manage{
+    margin-bottom: 118px;
+}
+

@@ -1,0 +1,24 @@
+.col--detail--1 img{
+    width:100%;
+    display: inline-block;
+}
+.col-lg-8-detalis .ant-form-item-explain.ant-form-item-explain-error{
+    margin-left:60px;
+}
+.btn--addoption{
+    border: none;
+    padding: 5px 8px;
+    background-color: red;
+    color: #fff;
+    transition:all .3s;
+}
+.btn--addoption:hover{
+    background-color: #ff0000ad;
+}
+.details-option{
+    padding: 4px 0 4px 4px;
+    font-size:15px
+}
+.details-option input{
+    margin-right:7px;
+}

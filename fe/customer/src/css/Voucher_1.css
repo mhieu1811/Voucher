@@ -1,0 +1,66 @@
+.vouchers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .vouchers li {
+    list-style-type: none;
+    /* padding-left: 8px;
+    padding-right: 8px; */
+    /* margin-left: 8px;
+    margin-right: 8px; */
+    /* margin: 12px 0; */
+    margin:20px 5px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  
+    transform: scale(1);
+    transition: all 0.5s;
+    width: 304px;
+    min-height: 280px;
+  }
+  .vouchers li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  /* voucher */
+  .voucher {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .vc-img{
+    width: 304px;
+    height: 152px;
+  }
+  .vc-name{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 8px;
+  }
+  .vc-name a{
+    text-decoration: none;
+    color:#000;
+  }
+  .vc-gia{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ee4d2d;
+    margin-left: 8px;
+    margin-bottom: 15px;
+  
+  }
+  .vc-gia span{
+    font-size:12px;
+    text-decoration:underline;
+  }
+  .vc-ngaybd{
+    font-size: 15px;
+    color: #808080;
+    margin-left: 8px;
+  }

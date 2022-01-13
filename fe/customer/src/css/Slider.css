@@ -1,0 +1,59 @@
+.banner-background{
+    height:300px;
+    background: linear-gradient(to top, #3380e6 0%, #94d1ff 84%);
+    position: relative;
+}
+.image-small{
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+}
+.content-main{
+    width: 70%;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+.button-zone{
+    color: white;
+    margin-top: 10px;
+}
+.button-zone .bonus{
+    color: rgb(230, 227, 227);
+    text-decoration: none;
+}
+.button-zone .bonus:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.button-zone .button-prev{
+    margin-right: 100px;
+}
+.button-zone .button-next{
+    margin-left: 100px;
+}
+
+.button-zone .button-next:hover{
+    color:#3380E6;
+}
+.button-zone .button-prev:hover{
+    color:#3380E6;
+}
+
+.greeting{
+    color:white;
+    padding-right: 20px;
+    font-family: "Gill Sans", sans-serif;
+    text-align: left;
+}
+.greeting a{
+    text-decoration: underline;
+    color: white;
+}
+.greeting a:hover{
+    color:#3380E6;
+}

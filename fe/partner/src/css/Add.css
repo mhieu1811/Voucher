@@ -1,0 +1,58 @@
+.all--form{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 18px;
+}
+.all--form .ant-form-item-explain.ant-form-item-explain-error{
+    margin-left: 82px;
+}
+.container .all--form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+.form__row{
+    /* display: flex; */
+    /* padding: 10px 0; */
+    min-width: 135px;
+    display:inline-block
+
+}
+.form__row .ant-form-item-label > label{
+    width:120px;
+}
+/* .form__label{
+    min-width: 135px;
+    margin-top: 11px;
+
+}*/
+.form__input{
+    width:100%;
+    border:1px solid #d9d9d9;
+    height:32px;
+    outline:none;
+    transition: all 0.3s;
+
+}
+.form__input:hover{
+    border-color: #40a9ff;
+}
+.text-right{
+    float: right !important;
+    
+}
+/* .clear{
+    clear: both;
+} */
+/* .p--name{
+    margin-left: 133px;
+    margin-top: -19px;
+    margin-bottom: 0;
+
+} */
+.btn--them{
+    padding: 8px 30px;
+}

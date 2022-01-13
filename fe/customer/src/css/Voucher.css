@@ -1,0 +1,44 @@
+.square_all{
+    width: 965px;
+    margin: 20px auto;
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);     
+}
+.square_all:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+.square{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    /* flex: auto; */
+}
+.square_img{
+    width: 236px; 
+    height: auto;
+    margin-left: 10px;
+}
+.body{  
+    
+    margin-left: 30px;
+    width: 100%;
+}
+.square_price{
+    font-size: 20px;
+    margin-right: 40px;
+    text-align: right;
+    color: #f51302;
+}
+.square_title{
+    margin-top: 20px;
+    font-size: 23px;
+}
+.square_desc{
+    margin-bottom: 70px;
+}
+
+
+
+
+
